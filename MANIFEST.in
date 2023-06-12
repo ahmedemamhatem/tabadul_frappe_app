@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tabadul_frappe_app *.css
+recursive-include tabadul_frappe_app *.csv
+recursive-include tabadul_frappe_app *.html
+recursive-include tabadul_frappe_app *.ico
+recursive-include tabadul_frappe_app *.js
+recursive-include tabadul_frappe_app *.json
+recursive-include tabadul_frappe_app *.md
+recursive-include tabadul_frappe_app *.png
+recursive-include tabadul_frappe_app *.py
+recursive-include tabadul_frappe_app *.svg
+recursive-include tabadul_frappe_app *.txt
+recursive-exclude tabadul_frappe_app *.pyc
